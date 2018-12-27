@@ -105,3 +105,8 @@ Retrieve story name, team, sprint and estimate
 select t.name, e.estimate, b.story_title, b.sprint_id_fk from backlog b join team t on b.team_id_fk = t.id join estimate e on e.backlog_id_fk = b.id where b.id = 79;
 ```
 
+Insert sprint
+```
+insert into event (name, schedule_id_fk, start_dttm, end_dttm) values ('Sprint 1', 1, '2019-01-06', '2019-02-02');
+```
+
