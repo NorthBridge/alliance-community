@@ -8,9 +8,9 @@ Instructions to get your environment set up and to start coding!
 
 Instructions to start developing.
 
-## [Deployment](deployment.md)
+## [Production](production.md)
 
-Instructions to deploy into shared development and production environments.
+Instructions to support and deploy in shared development and production environments.
 
 ## [Architecture](https://github.com/NorthBridge/alliance-community/blob/master/README.md)
 
